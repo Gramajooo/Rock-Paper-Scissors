@@ -17,17 +17,34 @@
     <header class="header">
         <span class="header__title">Gramajooo</span>
     </header>
-    <section class="game">
-        <div class="game__title">
-            <p>Start Game</p>
-        </div>  
-        <div class="game__choice">
-
-        </div>
-        <div class="game__score">
-
-        </div>
-    </section>
+    <div class="container">
+        <section class="game">
+            <div class="game__title">
+                <p>Rock, paper, scissors</p>
+            </div>
+            <div class="game__choice">
+                <img class="game__choice--item" src="img/stone.png" alt="">
+                <img class="game__choice--item" src="img/paper.png" alt="">
+                <img class="game__choice--item" src="img/scissors.png" alt="">
+            </div>
+        </section>
+        <section class="score">
+            <div class="score__user">
+                <p>You</p>
+            </div>
+            <div class="score__board">
+                <div class="score--item">
+                    <p>0</p>
+                </div>
+                <div class="score--item">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="score__pc">
+                <p>Pc</p>
+            </div>
+        </section>
+    </div>
     <footer class="footer">
         <div class="footer-top">
             <p class="copyright">&copy; Todos los derechos reservados</p>

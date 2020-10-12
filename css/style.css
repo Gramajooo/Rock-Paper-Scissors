@@ -4,9 +4,13 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+p{
+    font-weight: bold;
+}
+
 .header {
     width: 100%;
-    height: 80px;
+    height: 40px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -14,14 +18,84 @@ body {
 
 .header__title {
     width: 200px;
-    margin-top: -35px;
-    margin-left: 17px;
+    margin-left: 12px;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Orbitron', sans-serif;
     font-size: 25px;
-    color: rgba(237, 242, 239, 0.87);
+    color: rgba(237, 242, 239, 01);
 }
 
+.container {
+    min-height: calc(100vh - 200px);
+}
+
+.game {
+    margin: 50px 0px;
+    justify-content: center;
+}
+
+.game__title {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.game__choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__choice--item {
+    padding: 20px 20px;
+    margin: 0px 10px;
+    width: 70px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px 2px rgba(29, 28, 28, 0.555);
+    border-radius: 20px;
+}
+
+.game__choice--item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 11px;
+    width: 68px;
+    cursor: pointer;
+}
+
+.score {
+    margin: 0px 100px;
+    padding: 0px 50px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px 2px rgba(29, 28, 28, 0.555);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score__user{
+    font-size: 50px;
+}
+
+.score__board{
+    display: flex;
+    font-size: 50px;
+}
+
+.score--item {
+    text-align: center;
+    line-height: 0px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    /* box-shadow: 5px 5px 10px 2px rgba(29, 28, 28, 0.555); */
+}
+
+.score__pc{
+    font-size: 50px;
+}
+
+/* ------------------------------------------------------------------------ */
 
 footer {
     /* background: #f24333; */
