@@ -23,23 +23,23 @@
                 <p>Rock, paper, scissors</p>
             </div>
             <div class="game__choice">
-                <img class="game__choice--item" src="img/stone.png" alt="">
-                <img class="game__choice--item" src="img/paper.png" alt="">
-                <img class="game__choice--item" src="img/scissors.png" alt="">
+                <img id="rock" class="game__choice--item" data-item="rock" src="img/stone.png" alt="">
+                <img id="paper" class="game__choice--item" data-item="paper" src="img/paper.png" alt="">
+                <img id="scissor" class="game__choice--item" data-item="scissor" src="img/scissors.png" alt="">
             </div>
         </section>
         <section class="score">
             <div class="score__user">
                 <p>YOU</p>
                 <div class="score--item">
-                    <p>0</p>
+                    <p id="scoreUser">0</p>
                 </div>
             </div>
-            <span>Restart</span>
+            <span id="restart" class="restart" data-start="restart">Restart</span>
             <div class="score__ia">
                 <p>IA</p>
                 <div class="score--item">
-                    <p>0</p>
+                    <p id="scoreIA">0</p>
                 </div>
             </div>
         </section>
@@ -61,7 +61,7 @@
             </a>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

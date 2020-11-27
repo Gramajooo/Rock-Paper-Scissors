@@ -67,7 +67,7 @@ p {
 }
 
 
-span {
+.restart {
     color: white;
     background-color: black;
     text-align: center;
@@ -84,7 +84,7 @@ span {
     transition: all 0.3s ease-in-out;
 }
 
-span:hover {
+.restart:hover {
     background-color: rgba(130, 11, 138, 0.8);
     cursor: pointer;
 }
@@ -104,7 +104,7 @@ span:hover {
 .score--item {
     font-size: 50px;
     margin: 10px 80px;
-    color: #FE6D73;
+    color: red;
     font-family: 'Lobster', monospace;
     text-align: center;
     line-height: 0px;
